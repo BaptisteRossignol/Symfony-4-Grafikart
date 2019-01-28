@@ -19,3 +19,10 @@ Lancez le serveur
 ```sh
 $ php bin/console server:run
 ```
+
+Générez les fixtures
+```sh
+$ php bin/console doctrine:fixtures:load --append
+```
+
+Pour accèder à l'administration, aller sur '/admin' puis rentrez les identifiants demo:demo
